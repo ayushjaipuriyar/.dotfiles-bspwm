@@ -38,18 +38,23 @@ bspc config presel_feedback_color "$color1"
 
 #mouse focus
 bspc config focus_follows_pointer true
-xinput set-prop "MSFT0002:00 04F3:317F Touchpad" 304 1 &
-xinput set-prop "MSFT0002:00 04F3:317F Touchpad" 296 1 &
+xinput set-prop "MSFT0002:00 04F3:317F Touchpad" "libinput Tapping Enabled" 1 &
+xinput set-prop "MSFT0002:00 04F3:317F Touchpad" "libinput Natural Scrolling Enabled" 1 &
+xinput set-prop "MSFT0002:00 04F3:317F Touchpad" "libinput Natural Scrolling Enabled" 1 &
 libinput-gestures-setup start &
 xsetroot -cursor_name left_ptr &
+
 #autostart
+
+
 nitrogen --restore &
 picom &
 dunst &
-slack -u &
-whatsdesk &
-rclone --vfs-cache-mode writes mount "onedrive":  ~/onedrive &
-mailspring -b &
+geary --hidden &
+#slack -u &
+#whatsdesk &
+#rclone --vfs-cache-mode writes mount "onedrive":  ~/onedrive &
+#mailspring -b &
 
 bspc rule -a slack -o desktop='^4'
 bspc rule -a whatsdesk -o desktop='^4'

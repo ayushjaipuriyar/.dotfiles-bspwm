@@ -1,7 +1,7 @@
 [global]
 monitor = 0
 follow = mouse
-geometry = "0x60-10+48"
+geometry = "500x60-10+48"
 indicate_hidden = yes
 shrink = no
 separator_height = 0
@@ -28,7 +28,7 @@ browser = /usr/bin/firefox -new-tab
 always_run_script = true
 title = Dunst
 class = Dunst
-corner_radius = 10
+corner_radius = 8
 max_icon_size = 64
 
 [shortcuts]
