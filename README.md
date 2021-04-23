@@ -19,3 +19,8 @@ GPU: AMD ATI 04:00.0 Renoir<br>
 2.Dunst
 3.Brave
 4.Ncspot
+
+## Screenshots
+
+![](https://github.com/ayushjaipuriyar/.dotfiles-bspwm/blob/master/screenshots/2021-04-22_12-23-36_1920x1080.png?raw=true)
+![](https://github.com/ayushjaipuriyar/.dotfiles-bspwm/blob/master/screenshots/2021-04-23_10-16-41_1920x1080.png?raw=true)
