@@ -10,8 +10,7 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 $HOME/.config/polybar/launch.sh 
 $HOME/.config/picom/picom.conf
 
-bspc monitor -d I II III IV V
-
+bspc monitor -d 1 2 3 4 5 6 7 
 bspc config border_width        3
 bspc config window_gap          8
 
@@ -51,15 +50,15 @@ nitrogen --restore &
 picom &
 dunst &
 geary --hidden &
+corectrl &
 #slack -u &
 #whatsdesk &
-#rclone --vfs-cache-mode writes mount "onedrive":  ~/onedrive &
-#mailspring -b &
+rclone --vfs-cache-mode writes mount "onedrive":  ~/onedrive &
 
-bspc rule -a slack -o desktop='^4'
-bspc rule -a whatsdesk -o desktop='^4'
+bspc rule -a slack -o desktop='^7'
+bspc rule -a whatsdesk -o desktop='^7'
+bspc rule -add Google-chrome desktop='^4'
+bspc rule -a "alacritty:ncspot"NCSPOT -o desktop='^1'
 bspc rule -a AndroidMessages -o desktop='^4'
-bspc rule -a teams -o desktop='^5'
-bspc rule -a spotify -o desktop='^3'
-bspc rule -a firefox -o desktop='^2'
+bspc rule -a "microsoft teams - preview" -o desktop='^6'
 bspc rule -a Zathura state=tiled

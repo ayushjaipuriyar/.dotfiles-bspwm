@@ -1,0 +1,2 @@
+
+map("n", '<leader><leader>', '<cmd>nohlsearch<CR>')

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/ayush/Pictures/wallpapers/plant.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#07170F",
+        "foreground": "#a1dbc7",
+        "cursor": "#a1dbc7"
+    },
+    "colors": {
+        "color0": "#07170F",
+        "color1": "#146952",
+        "color2": "#1B8D6C",
+        "color3": "#269566",
+        "color4": "#49AA5F",
+        "color5": "#32A88B",
+        "color6": "#46BA98",
+        "color7": "#a1dbc7",
+        "color8": "#70998b",
+        "color9": "#146952",
+        "color10": "#1B8D6C",
+        "color11": "#269566",
+        "color12": "#49AA5F",
+        "color13": "#32A88B",
+        "color14": "#46BA98",
+        "color15": "#a1dbc7"
+    }
+}

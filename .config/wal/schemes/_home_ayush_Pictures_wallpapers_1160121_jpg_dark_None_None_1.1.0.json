@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/ayush/Pictures/wallpapers/1160121.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#030303",
+        "foreground": "#9ef1f4",
+        "cursor": "#9ef1f4"
+    },
+    "colors": {
+        "color0": "#030303",
+        "color1": "#3392A4",
+        "color2": "#4FA1A7",
+        "color3": "#2C9FE7",
+        "color4": "#50AEE4",
+        "color5": "#38D9F5",
+        "color6": "#5EE1EF",
+        "color7": "#9ef1f4",
+        "color8": "#6ea8aa",
+        "color9": "#3392A4",
+        "color10": "#4FA1A7",
+        "color11": "#2C9FE7",
+        "color12": "#50AEE4",
+        "color13": "#38D9F5",
+        "color14": "#5EE1EF",
+        "color15": "#9ef1f4"
+    }
+}

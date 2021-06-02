@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/ayush/Pictures/wallpapers/feathers.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1c1737",
+        "foreground": "#dee0f0",
+        "cursor": "#dee0f0"
+    },
+    "colors": {
+        "color0": "#1c1737",
+        "color1": "#62A5EC",
+        "color2": "#6AC8F8",
+        "color3": "#9CADE4",
+        "color4": "#CCA9C9",
+        "color5": "#94CDFA",
+        "color6": "#B2CCF5",
+        "color7": "#dee0f0",
+        "color8": "#9b9ca8",
+        "color9": "#62A5EC",
+        "color10": "#6AC8F8",
+        "color11": "#9CADE4",
+        "color12": "#CCA9C9",
+        "color13": "#94CDFA",
+        "color14": "#B2CCF5",
+        "color15": "#dee0f0"
+    }
+}

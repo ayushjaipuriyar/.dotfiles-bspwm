@@ -1,4 +1,4 @@
-#           _     _       _ 
+# udio          _     _       _ 
 #  _____  _| |__ | | ____| |
 # / __\ \/ / '_ \| |/ / _` |
 # \__ \>  <| | | |   < (_| |
@@ -77,11 +77,8 @@ super + {_,shift + }c
 super + bracket{left,right}
 	bspc desktop -f {prev,next}.local
 
-super + comma 
-        bspc desktop -f prev
-
-super + period 
-        bspc desktop -f next
+super + {comma,period}
+	bspc desktop -f {prev,next}.local
 
 # focus the last node/desktop
 super + {grave,Tab}
@@ -97,7 +94,11 @@ super + {o,i}
 super + {_,shift + }{1-9,0}
 	bspc {desktop -f,node -d} '^{1-9,10}'
 
-#
+super + shift bracketright
+        bspc node -d next | bspc desktop -f next
+super + shift bracketleft
+        bspc node -d prev | bspc desktop -f prev
+
 # preselect
 #
 
@@ -154,9 +155,9 @@ alt + shift + {j,k}
 
 # volume control
 XF86AudioLowerVolume
-	amixer set Master 5%-
+	amixer set Master 1%-
 XF86AudioRaiseVolume
-	amixer set Master 5%+
+	amixer set Master 1%+
 XF86AudioMute
 	amixer set Master toggle
 XF86AudioMicMute
@@ -164,21 +165,44 @@ XF86AudioMicMute
 # Media Controls
 
 alt + backslash
-          playerctl next
+          playerctl next --player=chromium
 
 alt + bracketright
-          playerctl play-pause
+          playerctl play-pause --player=chromium
 
 alt + bracketleft
-          playerctl previous
+          playerctl previous --player=chromium
 
+alt + shift + backslash
+          playerctl next --player=ncspot,spotify
+
+alt + shift + bracketright
+          playerctl play-pause --player=ncspot,spotify
+
+alt + shift + bracketleft
+          playerctl previous --player=ncspot,spotify
+
+XF86AudioNext
+          playerctl next --player=ncspot,spotify
+
+XF86Audio{Play,Pause}
+          playerctl play-pause --player=ncspot,spotify
+
+XF86AudioPrev
+          playerctl previous --player=ncspot,spotify
 # brightness control
 XF86MonBrightnessDown
 	brightnessctl set -c backlight 5%-
 XF86MonBrightnessUp
 	brightnessctl set -c backlight 5%+
-
+XF86MonBrightnessUp + shift 
+        brightnessctl set -c backlight 100%
+XF86MonBrightnessDown + shift 
+        brightnessctl set -c backlight 15%
 # lockscreen
-super + l
+alt + l
 	betterlockscreen -l dimblur
+# Power Manager
 
+XF86Launch4
+    ~/.config/rofi/power.sh

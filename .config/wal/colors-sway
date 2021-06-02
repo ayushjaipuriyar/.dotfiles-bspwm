@@ -1,0 +1,21 @@
+set $wallpaper /home/ayush/Pictures/wallpapers/andre-benz-JBkwaYMuhdc-unsplash.jpg
+
+set $background #0b0f11
+set $foreground #aabcc2
+
+set $color0 #0b0f11
+set $color1 #1C4452
+set $color2 #294753
+set $color3 #2E5766
+set $color4 #346472
+set $color5 #525C61
+set $color6 #4F7885
+set $color7 #aabcc2
+set $color8 #768387
+set $color9 #1C4452
+set $color10 #294753
+set $color11 #2E5766
+set $color12 #346472
+set $color13 #525C61
+set $color14 #4F7885
+set $color15 #aabcc2

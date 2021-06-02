@@ -1,14 +1,14 @@
 colors:
   primary:
-    background: '#12181A'
-    foreground: '#BBD4DA'
+    background: '#0b0f11'
+    foreground: '#aabcc2'
     dim_foreground: '#a5abb6'
   cursor:
     text: '#2e3440'
-    cursor: '#BBD4DA'
+    cursor: '#aabcc2'
   vi_mode_cursor:
     text: '#2e3440'
-    cursor: '#BBD4DA'
+    cursor: '#a1dbc7'
   selection:
     text: CellForeground
     background: '#4c566a'
@@ -20,23 +20,23 @@ colors:
       background: '#434c5e'
       foreground: '#d8dee9'
   normal:
-    black: '#12181A'
-    red: '#2d718d'
-    green: '#6ac8f8'
-    yellow: '#9cade4'
-    blue: '#62A5EC'
-    magenta: '#6CB4C5'
-    cyan: '#79C0CE'
-    white: '#BBD4DA'
+    black: '#0b0f11'
+    red: '#1C4452'
+    green: '#294753'
+    yellow: '#2E5766'
+    blue: '#346472'
+    magenta: '#525C61'
+    cyan: '#4F7885'
+    white: '#aabcc2'
   bright:
-    black: '#829298'
-    red: '#2D718D'
-    green: '#47758C'
-    yellow: '#348CA6'
-    blue: '#549DB2'
-    magenta: '#6CB4C5'
-    cyan: '#79C0CE'
-    white: '#BBD4DA'
+    black: '#768387'
+    red: '#1C4452'
+    green: '#294753'
+    yellow: '#2E5766'
+    blue: '#346472'
+    magenta: '#525C61'
+    cyan: '#4F7885'
+    white: '#aabcc2'
   dim:
     black: '#373e4d'
     red: '#94545d'

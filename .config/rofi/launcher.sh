@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 rofi -no-lazy-grab -show drun \
 -modi run,drun,window \
--theme "./colors-rofi-dark.rasi"
+-theme "./city.rasi"
 

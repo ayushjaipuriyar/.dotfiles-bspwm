@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/ayush/Pictures/wallpapers/under-realm.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#010512",
+        "foreground": "#b5dac5",
+        "cursor": "#b5dac5"
+    },
+    "colors": {
+        "color0": "#010512",
+        "color1": "#514462",
+        "color2": "#46867B",
+        "color3": "#0E7785",
+        "color4": "#417E83",
+        "color5": "#228988",
+        "color6": "#5B9C8B",
+        "color7": "#b5dac5",
+        "color8": "#7e9889",
+        "color9": "#514462",
+        "color10": "#46867B",
+        "color11": "#0E7785",
+        "color12": "#417E83",
+        "color13": "#228988",
+        "color14": "#5B9C8B",
+        "color15": "#b5dac5"
+    }
+}

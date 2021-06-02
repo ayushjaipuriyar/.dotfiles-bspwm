@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/ayush/Pictures/wallpapers/waves.jpeg",
+    "alpha": "100",
+    "special": {
+        "background": "#060A11",
+        "foreground": "#e2e9ee",
+        "cursor": "#e2e9ee"
+    },
+    "colors": {
+        "color0": "#060A11",
+        "color1": "#5C92B2",
+        "color2": "#6DA0C0",
+        "color3": "#85A7BC",
+        "color4": "#90B5CD",
+        "color5": "#B0CBDC",
+        "color6": "#C9DBE6",
+        "color7": "#e2e9ee",
+        "color8": "#9ea3a6",
+        "color9": "#5C92B2",
+        "color10": "#6DA0C0",
+        "color11": "#85A7BC",
+        "color12": "#90B5CD",
+        "color13": "#B0CBDC",
+        "color14": "#C9DBE6",
+        "color15": "#e2e9ee"
+    }
+}
