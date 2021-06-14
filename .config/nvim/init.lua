@@ -24,17 +24,23 @@ cmd "syntax on"
 local base16 = require "base16"
 base16(base16.themes["onedark"], true)
 
+require "highlights"
+
 -- blankline
 
 g.indentLine_enabled = 1
 g.indent_blankline_char = "▏"
-
 g.indent_blankline_filetype_exclude = {"help", "terminal"}
 g.indent_blankline_buftype_exclude = {"terminal"}
 
 g.indent_blankline_show_trailing_blankline_indent = false
 g.indent_blankline_show_first_indent_level = false
 
+g.vim_markdown_folding_disabled = 1
+g.mkdp_auto_start = 1
+g.mkdp_auto_close = 1
+g.mkdp_refresh_slow = 1
+g.mkdp_markdown_css = '~/github/githubmkd.css'
 require "treesitter-nvim"
 require "mappings"
 
@@ -52,9 +58,11 @@ vim.api.nvim_exec([[
    au BufEnter term://* setlocal nonumber
 ]], false)
 
+
 vim.api.nvim_exec([[
-  augroup fmt
+augroup fmt
   autocmd!
   autocmd BufWritePre * undojoin | Neoformat
-  augroup END
+augroup END
 ]], false)
+

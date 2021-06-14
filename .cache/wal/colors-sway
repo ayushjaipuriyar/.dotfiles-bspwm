@@ -1,0 +1,21 @@
+set $wallpaper /home/ayush/Pictures/wallpapers/candlin.jpg
+
+set $background #12181a
+set $foreground #bbd4da
+
+set $color0 #12181a
+set $color1 #2D718D
+set $color2 #47758C
+set $color3 #348CA6
+set $color4 #549DB2
+set $color5 #6CB4C5
+set $color6 #79C0CE
+set $color7 #bbd4da
+set $color8 #829498
+set $color9 #2D718D
+set $color10 #47758C
+set $color11 #348CA6
+set $color12 #549DB2
+set $color13 #6CB4C5
+set $color14 #79C0CE
+set $color15 #bbd4da

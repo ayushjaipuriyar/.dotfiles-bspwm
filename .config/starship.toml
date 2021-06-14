@@ -1,0 +1,49 @@
+add_newline = false
+
+[time]
+disabled = true
+
+[line_break]
+disabled = true
+
+format = """
+$custom\
+$directory\
+$git_branch\
+$git_commit\
+$git_state\
+$git_status\
+$package\
+$cmake\
+$java\
+$kotlin\
+$nodejs\
+$python\
+$rust\
+$env_var\
+$lua\
+$jobs\
+$status\
+$character\
+$time\
+"""
+
+[nodejs]
+disabled = true
+
+[git_branch]
+symbol = " "
+
+[status]
+symbol = "🔴"
+format = '[\[$symbol $common_meaning$signal_name$maybe_int\]]($style) '
+map_symbol = true
+disabled = false
+[directory]
+
+read_only = " 🔒"
+home_symbol = "ﮟ"
+
+[character]
+success_symbol = "[➜](bold green)"
+error_symbol = "[✗](bold red) "

@@ -53,6 +53,7 @@ geary --hidden &
 corectrl &
 #slack -u &
 #whatsdesk &
+umount onedrive &
 rclone --vfs-cache-mode writes mount "onedrive":  ~/onedrive &
 
 bspc rule -a slack -o desktop='^7'

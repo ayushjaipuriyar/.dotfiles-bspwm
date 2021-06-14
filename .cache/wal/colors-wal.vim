@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/ayush/Pictures/wallpapers/candlin.jpg"
+let background = "#12181a"
+let foreground = "#bbd4da"
+let cursor     = "#bbd4da"
+
+" Colors
+let color0  = "#12181a"
+let color1  = "#2D718D"
+let color2  = "#47758C"
+let color3  = "#348CA6"
+let color4  = "#549DB2"
+let color5  = "#6CB4C5"
+let color6  = "#79C0CE"
+let color7  = "#bbd4da"
+let color8  = "#829498"
+let color9  = "#2D718D"
+let color10 = "#47758C"
+let color11 = "#348CA6"
+let color12 = "#549DB2"
+let color13 = "#6CB4C5"
+let color14 = "#79C0CE"
+let color15 = "#bbd4da"

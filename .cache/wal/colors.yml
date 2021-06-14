@@ -1,0 +1,24 @@
+wallpaper: "/home/ayush/Pictures/wallpapers/candlin.jpg"
+
+special:
+    background: "#12181a"
+    foreground: "#bbd4da"
+    cursor: "#bbd4da"
+
+colors:
+    color0: "#12181a"
+    color1: "#2D718D"
+    color2: "#47758C"
+    color3: "#348CA6"
+    color4: "#549DB2"
+    color5: "#6CB4C5"
+    color6: "#79C0CE"
+    color7: "#bbd4da"
+    color8: "#829498"
+    color9: "#2D718D"
+    color10: "#47758C"
+    color11: "#348CA6"
+    color12: "#549DB2"
+    color13: "#6CB4C5"
+    color14: "#79C0CE"
+    color15: "#bbd4da"

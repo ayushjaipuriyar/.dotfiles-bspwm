@@ -1,5 +1,5 @@
 configuration {
-	font:                      		"Comfortaa 12";
+	font:                      		"Iosevka 12";
     disable-history:                false;
     fullscreen:                     false;
 	hide-scrollbar: 				true;
@@ -16,7 +16,7 @@ configuration {
 window {
     transparency:                   "real";
     location:                       center;
-	width:							490px;
+	width:							475px;
 }
 
 prompt {

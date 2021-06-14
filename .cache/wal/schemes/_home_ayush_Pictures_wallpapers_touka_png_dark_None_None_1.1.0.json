@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/ayush/Pictures/wallpapers/touka.png",
+    "alpha": "100",
+    "special": {
+        "background": "#131b1f",
+        "foreground": "#dddad2",
+        "cursor": "#dddad2"
+    },
+    "colors": {
+        "color0": "#131b1f",
+        "color1": "#9A9C72",
+        "color2": "#C7A85E",
+        "color3": "#507985",
+        "color4": "#5D9897",
+        "color5": "#4CB3BC",
+        "color6": "#A5AA93",
+        "color7": "#dddad2",
+        "color8": "#9a9893",
+        "color9": "#9A9C72",
+        "color10": "#C7A85E",
+        "color11": "#507985",
+        "color12": "#5D9897",
+        "color13": "#4CB3BC",
+        "color14": "#A5AA93",
+        "color15": "#dddad2"
+    }
+}
