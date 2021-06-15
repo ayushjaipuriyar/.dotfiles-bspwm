@@ -1,4 +1,7 @@
 #!/bin/sh
+
+device=$(bluetoothctl info | awk '{if ( NR == 2 ) print $2}')
+
 if [ $(bluetoothctl show | grep "Powered: yes" | wc -c) -eq 0 ]
 then
   echo "%{F#EF5350}"
@@ -7,7 +10,6 @@ else
   then 
     echo ""
   fi
-  #echo "%{F#2193ff}"
-    bluetoothctl info | awk '{if ( NR == 2 ) print $2}'  
+  echo "%{F#61afef}"$device
 fi
 
