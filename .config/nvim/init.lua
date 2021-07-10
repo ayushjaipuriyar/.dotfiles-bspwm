@@ -1,63 +1,47 @@
 -- load all plugins
 require "pluginList"
-require "misc-utils"
+require "options"
+require "plugins.bufferline"
 
-require "top-bufferline"
-require "statusline"
-
-require("colorizer").setup()
-require("neoscroll").setup() -- smooth scroll
-
--- lsp stuff
-require "nvim-lspconfig"
-require "compe-completion"
-
-local cmd = vim.cmd
 local g = vim.g
 
 g.mapleader = " "
-g.auto_save = 1
+g.auto_save = true
 
 -- colorscheme related stuff
-cmd "syntax on"
 
+g.nvchad_theme = "onedark"
 local base16 = require "base16"
 base16(base16.themes["onedark"], true)
 
+vim.cmd[[colorscheme tokyonight]]
+
+g.tokyonight_style = "night"
+g.tokyonight_italic_functions = 1
+g.tokyonight_sidebars = { "qf", "vista_kind", "terminal", "packer" }
+g.tokyo_italic_comments = 1
+g.tokyonight_italic_variables = 1
+g.tokyonight_italic_keywords = 1
+g.tokyonight_terminal_colors = 0
+
 require "highlights"
+require "mappings"
 
--- blankline
-
-g.indentLine_enabled = 1
-g.indent_blankline_char = "▏"
-g.indent_blankline_filetype_exclude = {"help", "terminal"}
-g.indent_blankline_buftype_exclude = {"terminal"}
-
-g.indent_blankline_show_trailing_blankline_indent = false
-g.indent_blankline_show_first_indent_level = false
+require("utils").hideStuff()
 
 g.vim_markdown_folding_disabled = 1
 g.mkdp_auto_start = 1
 g.mkdp_auto_close = 1
 g.mkdp_refresh_slow = 1
 g.mkdp_markdown_css = '~/github/githubmkd.css'
-require "treesitter-nvim"
-require "mappings"
-
-require "telescope-nvim"
-require "nvimTree" -- file tree stuff
-require "file-icons"
-
--- git signs , lsp symbols etc
-require "gitsigns-nvim"
-require("nvim-autopairs").setup()
-require("lspkind").init()
-
--- hide line numbers in terminal windows
 vim.api.nvim_exec([[
    au BufEnter term://* setlocal nonumber
 ]], false)
 
+g.neoformat_try_pretier = 1
+g.neoformat_basic_format_align = 1
+g.neoformat_basic_format_retab = 1
+g.neoformat_basic_format_trim = 1
 
 vim.api.nvim_exec([[
 augroup fmt
@@ -65,4 +49,3 @@ augroup fmt
   autocmd BufWritePre * undojoin | Neoformat
 augroup END
 ]], false)
-

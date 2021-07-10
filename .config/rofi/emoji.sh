@@ -1,5 +1,6 @@
-#!/usr/bin/env bash
+#!/bin/bash
+
 rofi -no-lazy-grab -show emoji \
 -modi emoji \
--theme "./city.rasi"
+-theme "./colors-rofi-dark.rasi"
 
