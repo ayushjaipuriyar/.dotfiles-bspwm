@@ -1,21 +1,21 @@
-set $wallpaper /home/ayush/Pictures/wallpapers/e2c71e97-9f7c-4c71-8638-c9e58bdfa65a.png
+set $wallpaper /home/ayush/Pictures/wallpapers/HD wallpaper_ 5K, CGI, Dark, Mountains, Sunrise, Minimal.jpeg
 
-set $background #131924
-set $foreground #cde2e7
+set $background #010612
+set $foreground #e2dcd0
 
-set $color0 #131924
-set $color1 #68ABB7
-set $color2 #6FA8B8
-set $color3 #77B2C6
-set $color4 #84B1BB
-set $color5 #88BAC9
-set $color6 #93C7D4
-set $color7 #cde2e7
-set $color8 #8f9ea1
-set $color9 #68ABB7
-set $color10 #6FA8B8
-set $color11 #77B2C6
-set $color12 #84B1BB
-set $color13 #88BAC9
-set $color14 #93C7D4
-set $color15 #cde2e7
+set $color0 #010612
+set $color1 #366B8C
+set $color2 #457B97
+set $color3 #8E7C88
+set $color4 #6195AA
+set $color5 #9AAFB0
+set $color6 #CBB2A1
+set $color7 #e2dcd0
+set $color8 #9e9a91
+set $color9 #366B8C
+set $color10 #457B97
+set $color11 #8E7C88
+set $color12 #6195AA
+set $color13 #9AAFB0
+set $color14 #CBB2A1
+set $color15 #e2dcd0

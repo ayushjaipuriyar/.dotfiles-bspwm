@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=Calendar
+Comment=Google Calendar
+Exec=google-chrome-stable 'https://calendar.google.com/calendar/u/0/r/month'

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Ncspot	
+Comment=Spotify client written in rust
+Exec=ncspot
+Terminal=true

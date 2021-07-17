@@ -23,7 +23,7 @@ chosen="$(echo -e "$options" | $rofi_command -p "TDP = $current W | STAPM = $sta
 case $chosen in
 
   $silent)
-    sudo ryzenadj --stapm-limit=5000 --fast-limit=5000 --slow-limit=5000 --apu-slow-limit=5000
+    sudo ryzenadj --power-saving 
     ;;
   $cool)
 
