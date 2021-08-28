@@ -11,8 +11,8 @@ $HOME/.config/polybar/launch.sh
 $HOME/.config/picom/picom.conf
 
 bspc monitor -d 1 2 3 4 5 6 7 
-bspc config border_width        3
-bspc config window_gap          8
+bspc config border_width        5
+bspc config window_gap          3
 
 bspc config split_ratio          0.5
 bspc config borderless_monocle   true
@@ -23,12 +23,9 @@ bspc config ignore_ewmh_focus	 true
 
 #############COLORS###############
 
-."~/.cache/wal/colors.sh"
-
-
-bspc config normal_border_color "$color1"
-bspc config active_border_color "$color2"
-bspc config focused_border_color "$color15"
+bspc config normal_border_color \#3f5d5a
+bspc config active_border_color \#00c5b4
+bspc config focused_border_color \#0270aa
 # Use the line below if you are on bspwm >= 0.9.4
 bspc config presel_feedback_color "$color1"
 # Use the line below if you are on bspwm < 0.9.4
@@ -45,7 +42,7 @@ xsetroot -cursor_name left_ptr &
 
 #autostart
 
-
+xsettingsd &
 nitrogen --restore &
 picom &
 dunst &

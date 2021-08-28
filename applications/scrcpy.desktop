@@ -2,5 +2,6 @@
 Type=Application
 Name=SCRCPY
 Comment=Copy your phone screen
-Exec=/usr/local/sbin/scrcpy.sh
+Icon=/home/ayush/Pictures/icons/scrcpy.png
+Exec=/home/ayush/.local/share/sbin/scrcpy.sh
 Terminal=true

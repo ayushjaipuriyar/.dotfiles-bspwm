@@ -2,4 +2,5 @@
 Type=Application
 Name=Onedrive	
 Comment=Onedrive chrome
-Exec=google-chrome-stable 'https://mujmanipal-my.sharepoint.com/personal/ayush_209302167_muj_manipal_edu/_layouts/15/onedrive.aspx'
+Icon=/home/ayush/Pictures/icons/onedrive.svg
+Exec=google-chrome-stable --new-window 'https://mujmanipal-my.sharepoint.com/personal/ayush_209302167_muj_manipal_edu/_layouts/15/onedrive.aspx'

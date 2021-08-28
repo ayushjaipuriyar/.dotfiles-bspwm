@@ -19,11 +19,15 @@ super + Return
 
 # program launcher
 super + @space
-	$HOME/.config/rofi/launchers/text/launcher.sh
+	$HOME/.config/rofi/launchers/colorful/launcher.sh
 
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
+
+XF86Calculator
+        $HOME/.config/rofi/applets/menu/network.sh
+
 
 #
 # bspwm hotkeys
@@ -207,4 +211,4 @@ alt + l
 # Power Manager
 
 XF86Launch4
-    ~/.config/rofi/power.sh
+    ~/.config/rofi/powermenu/power.sh

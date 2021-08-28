@@ -1,21 +1,21 @@
-set $wallpaper /home/ayush/Pictures/wallpapers/HD wallpaper_ 5K, CGI, Dark, Mountains, Sunrise, Minimal.jpeg
+set $wallpaper /home/ayush/Pictures/wallpapers/xiao.png
 
-set $background #010612
-set $foreground #e2dcd0
+set $background #002723
+set $foreground #bfc9c8
 
-set $color0 #010612
-set $color1 #366B8C
-set $color2 #457B97
-set $color3 #8E7C88
-set $color4 #6195AA
-set $color5 #9AAFB0
-set $color6 #CBB2A1
-set $color7 #e2dcd0
-set $color8 #9e9a91
-set $color9 #366B8C
-set $color10 #457B97
-set $color11 #8E7C88
-set $color12 #6195AA
-set $color13 #9AAFB0
-set $color14 #CBB2A1
-set $color15 #e2dcd0
+set $color0 #002723
+set $color1 #00c5b4
+set $color2 #00b7ac
+set $color3 #01a9a7
+set $color4 #019baa
+set $color5 #0188aa
+set $color6 #0270aa
+set $color7 #bfc9c8
+set $color8 #3f5d5a
+set $color9 #00c5b4
+set $color10 #00b7ac
+set $color11 #01a9a7
+set $color12 #019baa
+set $color13 #0188aa
+set $color14 #0270aa
+set $color15 #bfc9c8

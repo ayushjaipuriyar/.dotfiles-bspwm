@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Bashtop
+Comment=Resources Monitor
+Icon=/home/ayush/Pictures/icons/bashtop.png
+Exec=bashtop
+Terminal=true

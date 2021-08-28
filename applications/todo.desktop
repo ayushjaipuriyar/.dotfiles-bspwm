@@ -2,4 +2,5 @@
 Type=Application
 Name=Todo
 Comment=To Do chrome
-Exec=google-chrome-stable 'https://to-do.live.com/tasks/myday'
+Icon=/home/ayush/Pictures/icons/outlook.svg
+Exec=google-chrome-stable --app=https://to-do.office.com/tasks/today
