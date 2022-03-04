@@ -1,6 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Udemy
-Comment=Udemy
-Icon=/home/ayush/Pictures/icons/udemy.png
-Exec=google-chrome-stable --app=https://udemy.com

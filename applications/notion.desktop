@@ -1,6 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Notion	
-Comment=Notion
-Icon=/home/ayush/Pictures/icons/notion.svg
-Exec=google-chrome-stable --new-window 'https://notion.so'

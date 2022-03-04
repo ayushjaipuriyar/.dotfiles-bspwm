@@ -1,6 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Youtube	
-Comment=Youube chrome
-Icon=/home/ayush/Pictures/icons/youtube.svg
-Exec=google-chrome-stable --new-window 'https://youtube.com'
