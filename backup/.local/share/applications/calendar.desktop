@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Calendar
+Comment=Google Calendar
+Icon=/home/ayush/Pictures/icons/outlook_calendar.png
+Exec=google-chrome-stable --app=https://outlook.office365.com/calendar/view/week

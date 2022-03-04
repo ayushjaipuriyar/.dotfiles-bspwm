@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Todo	
+Comment=Todo Chrome
+Icon=/home/ayush/Pictures/icons/onedrive.svg
+Exec=google-chrome-stable --new-window 'https://todo.microsoft.com/'
