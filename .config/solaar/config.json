@@ -1,0 +1,60 @@
+{
+  "B01600000000:00000000": {
+    "_absent": [
+      "hi-res-scroll",
+      "lowres-smooth-scroll",
+      "smart-shift",
+      "thumb-scroll-mode",
+      "thumb-scroll-invert",
+      "report_rate",
+      "dpi",
+      "dpi-sliding",
+      "speed-change",
+      "backlight",
+      "fn-swap",
+      "disable-keyboard-keys",
+      "divert-crown",
+      "crown-smooth",
+      "divert-gkeys",
+      "multiplatform",
+      "change-host",
+      "gesture2-gestures",
+      "gesture2-params",
+      "onboard_profiles",
+      "backlight-timed",
+      "persistent-remappable-keys",
+      "m-key-leds",
+      "mr-key-led",
+      "gesture2-divert"
+    ],
+    "_modelId": "B01600000000",
+    "_name": "Bluetooth Mouse M336/M337/M535",
+    "_sensitive": {
+      "hires-smooth-invert": "ignore",
+      "hires-smooth-resolution": true,
+      "mouse-gestures": false
+    },
+    "_unitId": "00000000",
+    "divert-keys": {
+      "206": 0,
+      "207": 0,
+      "208": 1,
+      "80": 0,
+      "81": 0,
+      "82": 0
+    },
+    "hires-smooth-invert": false,
+    "hires-smooth-resolution": false,
+    "mouse-gestures": "208",
+    "pointer_speed": 256,
+    "reprogrammable-keys": {
+      "206": 206,
+      "207": 207,
+      "208": 208,
+      "80": 80,
+      "81": 81,
+      "82": 82
+    }
+  },
+  "_version": "1.1.2"
+}
